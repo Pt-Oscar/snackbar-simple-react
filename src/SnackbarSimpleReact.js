@@ -22,6 +22,7 @@ const SnackbarSimpleReact = (props) => {
 
       setTimeout(() => {
         x.className = x.className.replace('show-snackbar-react', '');
+        x.style.animation = '';
       }, showTime);
     } else {
       setCount(1);
@@ -48,11 +49,12 @@ const SnackbarSimpleReact = (props) => {
         <i
           onClick={() => {
             const x = document.getElementById('snackbar-react');
+            x.style.animation = '';
 
             x.className = x.className.replace('show-snackbar-react', '');
           }}
           className="fa fa-times"
-          style={{ cursor: 'pointer', fontSize: '0.7rem', color: '#000000A6' }}
+          style={{ cursor: 'pointer', fontSize: '0.7rem', color: textColor }}
         />
       </div>
     </div>
