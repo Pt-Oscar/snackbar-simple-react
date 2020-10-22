@@ -22,7 +22,7 @@ npm install snackbar-simple-react
 ```javascript
 import SnackbarSimpleReact from 'snackbar-simple-react';
           <SnackbarSimpleReact
-      text=""
+      text={""}
       isVisible={true},
       backgroundColor=""
       textColor=""
