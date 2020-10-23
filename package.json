@@ -1,6 +1,6 @@
 {
     "name": "snackbar-simple-react",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "description": "snackbar simple react",
     "main": "./lib/SnackbarSimpleReact.js",
     "license": "MIT",
@@ -35,6 +35,8 @@
         "snackbar",
         "react",
         "simple",
-        "easy"
+        "easy",
+        "icon",
+        "auto"
       ]
 }
